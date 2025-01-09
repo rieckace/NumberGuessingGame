@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: x-large;
+    color: white;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(black,green,rgb(220, 10, 10),white,orange);
+}
+body img{
+    /* border-radius: 70%; */
+    height: 60vh;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-inline-start-style: dotted;
+   
+}
+
+h2 {
+    margin: 0 0;
+    padding: auto;
+    color:black;
+    text-decoration: underline;
+}
+#lock{
+    height: 40vh;
+}
+
+p {
+    margin: 5px 0;
+    
+}
+button{
+   height: 50px;
+   border-radius: 45%;
+   display: flex;  
+   align-items: center; 
+   justify-content: space-between;
+}
+
+input,
+button {
+    background-color: rgb(230, 196, 152);
+    margin: 10px 0;
+    font-size: large;
+    font-family: cursive;
+}
+button:hover{
+    background-color: rgb(32, 224, 201);
+}
+#msg {
+    margin-top: 0px;
+    font-weight: bold;
+    color: black;
+}
+
+
+    @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    .blink {
+        animation: blink 0.5s steps(5, start) 2;
+    }
+
